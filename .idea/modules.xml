@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FibonacciDizisi/FibonacciDizisi.iml" filepath="$PROJECT_DIR$/FibonacciDizisi/FibonacciDizisi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GelismisHesapMakinesi/GelismisHesapMakinesi.iml" filepath="$PROJECT_DIR$/GelismisHesapMakinesi/GelismisHesapMakinesi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Hafta-2.iml" filepath="$PROJECT_DIR$/.idea/Hafta-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PalindromSayilar/PalindromSayilar.iml" filepath="$PROJECT_DIR$/PalindromSayilar/PalindromSayilar.iml" />
+    </modules>
+  </component>
+</project>
