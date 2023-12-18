@@ -7,13 +7,12 @@ public class Main {
         if (number <= 1) {
             return false;
         }
-        if (number == 2) {
-            return false;
+
+        if (divider > Math.sqrt(number)) {
+            return false; // Temel durum: Sayı asal olduğunda true döndür
         }
-        if (number % divider != 0) {                  // if kontrolü ile sayı bölenlere bölünmüyorsa false yani asal.
-            return false;
-        }
-        if (number % divider == 0) {                  // if if kontrolü ile sayı bölünlere bölünüyorsa true yani asal değil.
+
+        if (number % divider == 0) {                  // if kontrolü ile sayı bölünlere bölünüyorsa true yani asal değil.
             return true;
         }
 
@@ -26,7 +25,7 @@ public class Main {
         Scanner inp = new Scanner(System.in);
         System.out.print("Sayıyı Giriniz : ");      // kullanıcıdan sayı alıyoruz.
         int number = inp.nextInt();
-        boolean result = isPrime(number, 2); // divider değişkenini 2den başlatıyoruz.
+        boolean result = isPrime(number,2); // divider değişkenini 2den başlatıyoruz.
         if (result == false) {
             System.out.println(number + " sayısı ASALDIR !");
         } else {
