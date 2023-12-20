@@ -33,7 +33,6 @@ public class Match {
                 if(isWin()){
                     break;
                 }
-                System.out.println(firstFighter.name + " ---------F1");
                 System.out.println("Kalan Sağlık   " + firstFighter.name + " :" + firstFighter.health);
                 System.out.println("Kalan Sağlık   " + secondFighter.name + " :" +secondFighter.health);
                 System.out.println("======= YENİ ROUND ======= ");
