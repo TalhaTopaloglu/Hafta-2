@@ -9,7 +9,7 @@ public class Main {
         }
 
         if (divider > Math.sqrt(number)) {
-            return false; // Temel durum: Sayı asal olduğunda true döndür
+            return false;                             // Temel durum: Sayı asal olduğunda true döndür
         }
 
         if (number % divider == 0) {                  // if kontrolü ile sayı bölünlere bölünüyorsa true yani asal değil.
